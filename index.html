@@ -1,149 +1,208 @@
-<!DOCTYPE html>
-<html lang="ru">
+<!DOCTYPE HTML>
+
+<html>
+
 <head>
-<meta charset="utf-8" />
-<title>Пробный сайт</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Помощь по сайтам</title>
+
+<style>
+
+body {
+	font-family: Tahoma, Verdana, Geneva, sans-serif;
+	margin: 6em 6em;
+	font-weight: bold;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+li {
+	float: left;
+	margin-right: 10px;
+}
+li:last-of-type {
+	margin-right: 0;
+}
+
+a {
+	display: block;
+}
+
+img {
+	width: 300px;
+	height: 150px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+}
+
+
+
+
+body {
+ font-family: Tahoma, Verdana, Geneva, sans-serif;
+ margin: 6em 6em; font-weight: bold;
+}
+
+ul {
+ list-style-type: none; padding: 0;
+	margin: 0;
+}
+
+li { float: left; margin-right: 10px;
+}
+
+li:last-of-type {
+ margin-right: 0;
+}
+
+
+a { display: block;
+}
+
+
+img { width: 600px; height: 300px; box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+
+transition: transform .3s ease-in-out; 
+}
+
+
+a:hover img {
+	box-shadow: 6px 6px 6px rgba(0,0,0,.3);
+}
+
+
+a:hover #img1, a:focus #img1  {
+	transform: scale(2.5) rotate(-6deg);
+}
+
+a:hover #img2, a:focus #img2  {
+	transform: scale(2.5) rotate(8deg);
+}
+
+a:hover #img3, a:focus #img3  {
+	transform: scale(2.5) rotate(-10deg);
+}
+
+a:hover #img4, a:focus #img4  {
+	transform: scale(2.5) rotate(5deg);
+}
+
+
+
+
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+
+<ul>
+
+  <li><a href=""><img src="https://i.pinimg.com/736x/6f/19/d9/6f19d96813c091379fde0fa638f80229.jpg" id="img1" alt=""></a></li>
+
+  <li><a href=""><img src="https://virtus-img.cdnvideo.ru/images/as-is/plain/5f/5f57dc8a-6be7-4423-8a9d-3c5532245dd3.jpg" alt=""></a></li>
+
+
+
+</ul>
+<a href="https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_diffusion.ipynb#scrollTo=yEErJFjlrSWS">рисование в colab<a/>
+<a href="https://www.designspiration.com/">Арт концепт<a/>
+<a href="https://freefrontend.com/css-animation-examples/">CSS анимация<a/>
+<a href="https://jsitor.com/">отладчик адекват<a/>
+<a href="https://hcdev.ru/learn/css3/animations/#animation_1">Анимация<a/>
+<a href="https://dribbble.com/shots/following/web-design">Дриблинг няш мяшами<a/>
+<a href="https://cssremix.com/">к вершинам эль бруса<a/>
+<a href="https://www.cssmania.com/">портфолио шаблоны до ссылок на 3д модели за 2$ -<a/>
+<a href="https://3docean.net/?auto_signin=true&_gl=1*1u8d6w4*_ga*NDMyNjg5NTI5LjE3MDQ0ODYyOTg.*_ga_ZKBVC1X78F*MTcwNDQ4NjI5OS4xLjEuMTcwNDQ4NjMyNi4wLjAuMA..&_ga=2.225649118.558704552.1704486298-432689529.1704486298">ccылка<a/>
+<a href="https://color.adobe.com/ru/color-labs/recolor-svg">красим перекрасины<a/>	
+<a href="https://color.adobe.com/ru/create/color-wheel">колесо оборзения<a/>
+<a href="https://www.awwwards.com/">чарт продажных сайтов<a/>
+<a href="https://www.colourlovers.com/">цветные любители<a/>
+<a href="https://pixlr.com/ru/express/">Пиксель монтаж фотк<a/>
+<a href="https://msiter.ru/references/html5-canvas/filltext">Помощник Джава Скрипт<a/>
+<a href="anime.html">Анимация<a/>
+<a href="https://htmlacademy.ru/">Академия<a/>
+<a href="https://pythontutor.com/render.html#mode=display">Puthon<a/>
+<a href="https://www.coze.com/store/bot/7332476327574142981?from=bots_card">Помощник Puthon<a/>
+</body>
+
+<style>
+  body {
+    background-image: url('https://html5book.ru/wp-content/uploads/2015/05/svetlye_fony.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+</style>
+1. Понятие web – страницы, тэги, структура страницы.
+HTML – это язык маркировки гипертекста. Как в любом языке, в HTML есть
+свои конструкции, которые называются Тэги. Каждый тэг представляет собой
+следующее:
+< имя тэга список возможных атрибутов>
+Тэги бывают парными и непарными. Парные подразделяются на открывающие
+и закрывающие. Признаком конца тэга является символ «/» перед его именем.
+Между открывающимся и закрывающимся тэгами пишется то, к чему данный
+тэг применяется. В качестве списка возможных атрибутов, выступают различные свойства и параметры, которые позволяют разработчику проводить изменения на странице (например, выравнивания текста, положение объектов, размеры элементов, цвета и прочее). <br>
+1.1 Структура Web-страницы <br>
+Документы html состоят из двух разделов: заголовка, содержащего установки глобальных параметров страницы и основного раздела, содержащего
+текст и элементы страницы, отображаемые в окне обозревателя. Эти разделы
+создаются при помощи пары специальных открывающихся и закрывающихся
+тэгов.
+<html>
+<head>
+Параметры страницы
 </head>
 <body>
-<table
-border="1"
-align="center"
-rules="rows"
-style="width:60%;">
-<tr>
-<td>
-<table
-border="1"
-background="images/168.png"
-bgcolor="#7FFFD4"
-cellpadding="10"
-style="width:100%; border-radius:5px;">
-<!--Создаём строку таблицы-->
-<tr>
-<!--Создаём столбец таблицы-->
-<th>
-<!--Содержание ячейки столбца-->
-<h1>Надип</h1>
-<h3>Зачем нужен этот сайт</h3>
-</th>
-</tr>
-</table>
-<table
-border="1"
-bgcolor="#e6e6fa"
-cellpadding="10"
-style="width:100%; border-radius:5px;">
-<tr>
-<td
-rowspan="2"
-style="width:80%">
-<h2>Информация</h2>
-<!--Начинаем абзац с красной строки-->
-<p style="text-indent:20px">
-Здравствуйте,этот сделал ученик образовательной школы Надип
-Ему научили делать этот сайт учителя.</p>
-
-<p style="text-indent:20px">Почему я решил его сделать?
-Приходите к нам в школу научим быстро и качественно вашего ребёнка,племянника,брата,свата
-Кто угодно приходите возраст не важен.</p>
-
-</td>
-
->
-<td bgcolor="#e6e6fa">
-<h3>Меню</h3>
-
-<p>
-
-<a href="https://tolonchik.github.io/BEGET/">help</a>
-
-<img src="http://trueimages.ru/img/00/06/f4fffdb5.png">
-<span style="margin-left:5px;">Страница</span></a>
-</p>
-<p>
-<a href="">
-<img src="http://trueimages.ru/img/31/ab/4dcb087c2ae4305edcd15171696.jpg">
-<span style="margin-left:5px;">Страница 1</span;></a>
-</p>
-<p>
-<a href="">
-<img src="http://trueimages.ru/img/31/ab/4dcb087c2ae4305edcd15171696.jpg">
-<span style="margin-left:5px;">Страница 2</span></a>
-</p>
-</td>
-</tr>
-<tr>
-align="center">
-<h3>Общая информация</h3>
-<p>Улица Пушкина дом калатушкино ждём!</p>
-</td>
-</tr>
-</table>
-<table
-border="1"
-bgcolor="#7FFFD4"
-height="100"
-cellpadding="10"
-style="width:100%; border-radius:5px;">
-<tr>
-<th>
-<h3>Наши данные</h3>
-</th>
-</tr>
-</table>
-</td>
-</tr>
-</table>
+Текст страницы
 </body>
-<h2>Информация</h2>
-<!--Начинаем абзац с красной строки-->
-<p style="text-indent:20px">
-Здравствуйте,этот сделал ученик образовательной школы Надип
-Ему научили делать этот сайт учителя.</p>
-
-<p style="text-indent:20px">Почему я решил его сделать?
-Приходите к нам в школу научим быстро и качественно вашего ребёнка,племянника,брата,свата
-Кто угодно приходите возраст не важен.</p>
-
-</td>
-
->
-<td bgcolor="#e6e6fa">
-<h3>Меню</h3>
-
-<p>
-
-<a href="">
-
-<img src="http://trueimages.ru/img/00/06/f4fffdb5.png">
-<span style="margin-left:5px;">Страница</span></a>
-</p>
-<p>
-<a href="">
-<img src="http://trueimages.ru/img/31/ab/4dcb087c2ae4305edcd15171696.jpg">
-<span style="margin-left:5px;">Страница 1</span;></a>
-</p>
-<p>
-<a href="">
-<img src="http://trueimages.ru/img/31/ab/4dcb087c2ae4305edcd15171696.jpg">
-<span style="margin-left:5px;">Страница 2</span></a>
-</p>
-</td>
-</tr>
-<tr>
-align="center">
-<h3>Общая информация</h3>
-<p>Улица Пушкина дом калатушкино ждём!</p>
-</td>
-</tr>
-</table>
-<table
-border="1"
-bgcolor="#7FFFD4"
-height="100"
-cellpadding="10"
-style="width:100%; border-radius:5px;">
-<tr>
-<th>
-<h3>Наши данные</h3>
 </html>
+Тэги <html> … </html> устанавливаются в начале и в конце документа
+HTML. Заголовок web-страницы задается тэгами <head>..</head>, а основной
+раздел тэгами <body>..</body>. Эти тэги называются обязательными, так как
+присутствуют во всех документах HTML. Другие тэги используются по необходимости для установки параметров страницы, форматирования текста или
+добавления прочих элементов.
+	1.2 Тэги раздела заголовка<br>
+<title>…</title>- заголовок страницы, отображаемый в строке заголовка
+обозревателя, например:
+<title>Моя первая страница</title><br>
+
+	Плавающие блоки
+В обычном порядке блочные элементы отображаются, начиная с верхнего края
+окна браузера по направлению к нижнему краю. Свойство float позволяет перемещать любой элемент, выравнивая его по левому или правому краю вебстраницы или содержащего его элемента-контейнера. При этом остальные
+блочные элементы будут его игнорировать, а строчные элементы будут смещаться вправо или влево, освобождая для него пространство и обтекая его.
+Свойство float может принимать следующие значения:
+o left - Элемент прижимается к левому краю блока-контейнера, все остальное обтекает его справа
+o right - Элемент прижимается к правому краю блока-контейнера, все
+остальное обтекает его слева
+o none - Значение по умолчанию. Также отменяет любое перемещение для
+элемента из группы элементов, для которых уже установлено обтекание.
+o Initial - Устанавливает значение свойства в значение по умолчанию.
+o Inherit - Наследует значение свойства от родительского элемента.
+Плавающий блок принимает размеры своего содержимого с учетом внутренних
+отступов и рамок. Верхние и нижние отступы margin плавающих элементов не
+схлопываются. Свойство float применяется как к блочным элементам, так и к
+строчным элементам.
+Левый или правый внешний край перемещаемого элемента, в отличие от позиционированных элементов, не может располагаться левее (или правее) внутреннего края его блока-контейнера, т.е. выходить за его границы. При этом, если для блока-контейнера заданы внутренние отступы, то плавающий блок будет
+отходить от края блока-контейнера на заданное расстояние.
+При использовании свойства float для блочных элементов обязательно задавать
+ширину. Тем самым браузер создаст место для другого содержимого. Но если
+совокупная ширина всех столбцов окажется больше доступного места, то последний элемент спустится вниз.
+При этом вертикальные отступы margin обтекаемых элементов не схлопываются с отступами соседних элементов, в отличие от обычных блочных элементов.
+85
+Отмена обтекания элементов
+Свойство clear
+Свойство clear определяет, как будет располагаться элемент, идущий следом за
+плавающим элементом. Свойство отменяет обтекание с одной или обоих сторон элемента, установленное свойством float. Для предотвращения отображение фона или границ под плавающими элементами используется правило {overflow: hidden;}.
+Свойство clear может принимать следующие значения:
+o Left - Отменяет обтекание по левой стороне, смещая элемент вниз. Правое обтекание остается в силе.
+o Right - Отменяет обтекание по правой стороне, смещая элемент вниз. Левое обтекание остается в силе.
+o Both - Отменяет обтекание с обеих сторон элемента, смещая его вниз.
+o None - Значение по умолчанию. Также отменяет очистку обтекания, установленное для элементов одной группы.
+o Initial - Устанавливает значение свойства в значение по умолчанию.
+o Inherit - Наследует значение свойства от родительского элеме
