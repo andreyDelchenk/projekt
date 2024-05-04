@@ -1,0 +1,60 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<p style="text-align: center">
+
+	<button>Нажми на меня</button>
+	<p>Здесь еды нету</p>
+
+	<style>
+		body {
+			height: 200px;
+			background: beige;
+		}
+
+		.dot {
+			height: 8px;
+			width: 8px;
+			border-radius: 4px;
+			/* ñêðóãë¸ííûå óãëû */
+			background: blue;
+			position: absolute;
+		}
+	</style>
+
+
+
+	<img id="myImg" src="https://w7.pngwing.com/pngs/416/149/png-transparent-computer-mouse-emoji-sticker-computer-icons-cut-copy-and-paste-mouse-animal.png" style="position: relative "width="100" height="50">
+</p>
+	<script>
+		var cat = document.querySelector("img");
+var angle = 0, lastTime = null;
+function animate(time) {
+if (lastTime != null)
+angle += (time - lastTime) * 0.002;
+lastTime = time;
+cat.style.top = (Math.sin(angle) * 100) + "px";
+cat.style.left = (Math.cos(angle) * 200) + "px";
+requestAnimationFrame(animate);
+}
+
+var button = document.querySelector("button");
+button.addEventListener("click", function() {
+alert("Ìàëîâàòî áóäåò!");
+});
+
+document.getElementById('myImg').onclick = myFunction;
+
+function myFunction() {
+  alert('Ouch!!!');
+}
+
+
+requestAnimationFrame(animate);
+
+
+
+
+
+	</script>
+
