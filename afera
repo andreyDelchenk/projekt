@@ -33,7 +33,7 @@
   <title>Кнопка</title>
  </head>
  <body>
-  <form action="page/new.html" target="_blank">
+ <a href="index.html">закончите регистрацию<a/>	
    <button>Переход по ссылке</button>
   </form>
  </body>
