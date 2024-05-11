@@ -1,4 +1,7 @@
- <h2>Payment information</h2>
+<!DOCTYPE html>
+<html>
+ <head>
+<h2>Payment information</h2>
   <p>
     <label for="card">
       <span>Card type:</span>
@@ -25,3 +28,13 @@
     <input type="date" id="date" name="expiration" />
   </p>
 </section>
+
+  <meta charset="utf-8">
+  <title>Кнопка</title>
+ </head>
+ <body>
+  <form action="page/new.html" target="_blank">
+   <button>Переход по ссылке</button>
+  </form>
+ </body>
+</html>
