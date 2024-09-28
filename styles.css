@@ -1,1 +1,23 @@
-
+BODY {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  font-family: Georgia;
+}
+H1 {
+  font-size: 50px;
+  font-weight: normal;
+  cursor: pointer;
+  overflow: hidden;
+  text-shadow: 0 0 tomato,
+               0 0 yellowgreen,
+               0 0 skyblue;
+  color: transparent;
+  transition: all 1s;
+  }
+  H1:hover {
+    text-shadow: -400px 0 tomato,
+                 400px 0 yellowgreen,
+                 0 0 skyblue;
+    }
