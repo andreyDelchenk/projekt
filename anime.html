@@ -21,14 +21,14 @@ function animate(time) {
 if (lastTime != null)
 angle += (time - lastTime) * 0.002;
 lastTime = time;
-cat.style.top = (Math.cos(angle) * 50      ) + "px";
-cat.style.left = (Math.sin(angle) * 200) + "px";
+cat.style.top = (Math.cos(angle) * 500      ) + "px";
+cat.style.left = (Math.sin(angle) * 2000) + "px";
 requestAnimationFrame(animate);
 }
 
 var button = document.querySelector("button");
 button.addEventListener("click", function() {
-alert("НЕ ТРОГАЙ МОИ ПЕЛЬМЕНИ!!!!");
+alert("фу как тебе не стыдно");
 });
 
 document.getElementById('myImg').onclick = myFunction;
