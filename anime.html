@@ -27,29 +27,28 @@
 
 	<img id="mylmg"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh0RDEIBQsHQuRsphG0GJsobd9v-xpXX58dg&s" src="" style="position: relative "width="100" height="50">
 </p>
-	<script>
-		var cat = document.querySelector("img");
+    <script>
+      var cat = document.querySelector("img");
 var angle = 0, lastTime = null;
 function animate(time) {
 if (lastTime != null)
 angle += (time - lastTime) * 0.002;
 lastTime = time;
-cat.style.top = (Math.sin(angle) * 100) + "px";
-cat.style.left = (Math.cos(angle) * 200) + "px";
+cat.style.top = (Math.cos(angle) * 50      ) + "px";
+cat.style.left = (Math.sin(angle) * 200) + "px";
 requestAnimationFrame(animate);
 }
 
 var button = document.querySelector("button");
 button.addEventListener("click", function() {
-alert("Ìàëîâàòî áóäåò!");
+alert("НЕ ТРОГАЙ МОИ ПЕЛЬМЕНИ!!!!");
 });
 
-document.getElementById('myImg').onclick = my function;
+document.getElementById('myImg').onclick = myFunction;
 
 function myFunction() {
   alert('Ouch!!!');
 }
-
 
 requestAnimationFrame(animate);
 
