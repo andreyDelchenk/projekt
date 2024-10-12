@@ -1,5 +1,36 @@
 <body>
 <style>
+	.blok1 {
+    height: 100%;
+    background-image: url('/resources/admin/back.jpg');
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:-1;
+    -webkit-animation: backgroundScroll 30s linear infinite;
+    animation: backgroundScroll 30s linear infinite;
+    background-size:130% 100%;
+    background-position:top;
+    background-attachment:fixed;
+}
+
+
+body{margin:0px; padding:0px;}
+@-webkit-keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -400px 0;}
+}
+
+@keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -400px 0;}
+}
 fill{
 	background:#cc0;
 	width:300px;
