@@ -1,114 +1,20 @@
 <body>
 <style>
-	.blok1 {
-    height: 100%;
-    background-image: url('/resources/admin/back.jpg');
-    -webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    -o-filter: blur(3px);
-    -ms-filter: blur(3px);
-    filter: blur(3px);
-    position:fixed;
-    width:100%;
-    top:0;
-    left:0;
-    z-index:-1;
-    -webkit-animation: backgroundScroll 30s linear infinite;
-    animation: backgroundScroll 30s linear infinite;
-    background-size:130% 100%;
-    background-position:top;
-    background-attachment:fixed;
-}
 
-
-body{margin:0px; padding:0px;}
-@-webkit-keyframes backgroundScroll {
-    from {background-position: 0 0;}
-    to {background-position: -400px 0;}
-}
-
-@keyframes backgroundScroll {
-    from {background-position: 0 0;}
-    to {background-position: -400px 0;}
-}
-fill{
-	background:#cc0;
-	width:300px;
-	height:300px;
-	position:relative;
-	margin:100px;
-}
-.stock{
-	width:100px;
-	height:100px;
-	border-radius:100px;
-	position:absolute;
-	top:0; left:0;
-	animation:pos 5s infinite ease-in-out;
-	transform:rotate(360deg);
-	background:linear-gradient(red,blue);
-	transition:scale 5s linear;
-	z-index:-10;
-}
-
-@keyframes pos{
-	0%{
-		top:100px;
-		left:320px;
-	}
-	50%{
-		top:100px;
-		left:320px;
-		transform:scale(.5);
-		z-index:-10;
-	}
-	70%{
-		left:-100px;
-		top:100px;
-		z-index:-10;
-	}
-	80%{
-		z-index:10;
-		left:-120px;
-		top:100px;
-	}
-	100%{
-		left:320px;
-		top:100px;
-		z-index:10;
-		transform:scale(1.3);
-	}
-}
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-
-<p style="text-align: center"/p>
 <button>Нажми чтобы перейти на следуйщую стадию развития</button>
 	
 	<p>с момощью кода на этом сайте вы научитесь бегать</p>
 
-	
-		body {
-			height: 200px;
-			background: beige;
-		}
+	<p style="text-align: center">
 
-		.dot {
-			height: 8px;
-			width: 8px;
-			border-radius: 4px;
-			/* ñêðóãë¸ííûå óãëû */
-			background: blue;
-			position: absolute;
-		}
-	</style>
+		<button>Покорми меня!</button>
+		<p>Горошка и морковки хватит, МММ... салатик. МММ... отлично...МММ... салатик</p>
 
+		<img id="myImg" src="https://meat-expert.ru/files/uploads/obzor/_2023/30/01.jpg" style="position: relative">
 
-
-	<img id="mylmg"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh0RDEIBQsHQuRsphG0GJsobd9v-xpXX58dg&s" src="" style="position: relative "width="100" height="50">
 </p>
-    <script>
-      var cat = document.querySelector("img");
+		<script>
+			var cat = document.querySelector("img");
 var angle = 0, lastTime = null;
 function animate(time) {
 if (lastTime != null)
@@ -131,13 +37,4 @@ function myFunction() {
 }
 
 requestAnimationFrame(animate);
-<div class="fill"> 
-   <div class="stock"></div>
-</div>
-
-	</body>
-
-
-
-	</script>
-
+		</script>
