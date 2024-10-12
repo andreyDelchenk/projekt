@@ -21,8 +21,8 @@ function animate(time) {
 if (lastTime != null)
 angle += (time - lastTime) * 0.002;
 lastTime = time;
-cat.style.top = (Math.cos(angle) * 500      ) + "px";
-cat.style.left = (Math.sin(angle) * 2000) + "px";
+cat.style.top = (Math.cos(angle) * 5000      ) + "px";
+cat.style.left = (Math.sin(angle) * 20000) + "px";
 requestAnimationFrame(animate);
 }
 
