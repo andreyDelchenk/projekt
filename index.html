@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <h1>андрей дельченко диплом</h1>
 
-h1 {
+BODY {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  font-family: Georgia;
+}
+H1 {
   font-size: 50px;
   font-weight: normal;
   cursor: pointer;
-  text-shadow: 0 0 0 crimson;
+  overflow: hidden;
+  text-shadow: 0 0 tomato,
+               0 0 yellowgreen,
+               0 0 skyblue;
   color: transparent;
-  animation: shadows 4s infinite ease-in;
+  transition: all 1s;
   }
-
-@keyframes shadows {
-  60% {
-    text-shadow: 0 0 0 crimson;
-  }
-  90% {
-    text-shadow: 0 30px 40px transparent;
-  }
-  100% {
-      text-shadow: 0 0 0 transparent;
-  }
-}
+  H1:hover {
+    text-shadow: -400px 0 tomato,
+                 400px 0 yellowgreen,
+                 0 0 skyblue;
+    }
 <html><body>
 <input type="date" tabindex="1">
 Выбор даты
