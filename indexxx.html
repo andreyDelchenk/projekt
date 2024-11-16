@@ -1,0 +1,976 @@
+
+<!DOCTYPE html>
+<html class=" responsive" lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="#171a21">
+		<title>Among Us в Steam</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	
+	
+	<link href="https://store.fastly.steamstatic.com/public/shared/css/motiva_sans.css?v=YzJgj1FjzW34&amp;l=russian" rel="stylesheet" type="text/css" >
+<link href="https://store.fastly.steamstatic.com/public/shared/css/shared_global.css?v=JnJq5zVNmuba&amp;l=russian" rel="stylesheet" type="text/css" >
+<link href="https://store.fastly.steamstatic.com/public/shared/css/buttons.css?v=ecbk11GZ8OUy&amp;l=russian" rel="stylesheet" type="text/css" >
+<link href="https://store.fastly.steamstatic.com/public/css/v6/store.css?v=f8MnCYjYFupM&amp;l=russian" rel="stylesheet" type="text/css" >
+<link href="https://store.fastly.steamstatic.com/public/shared/css/user_reviews.css?v=QCnDn9u8RQLZ&amp;l=russian" rel="stylesheet" type="text/css" >
+<link href="https://store.fastly.steamstatic.com/public/shared/css/store_game_shared.css?v=_BWymV-JNsdC&amp;l=russian" rel="stylesheet" type="text/css" >
+<link href="https://store.fastly.steamstatic.com/public/css/v6/game.css?v=DEpiZbKLtqBP&amp;l=russian" rel="stylesheet" type="text/css" >
+<link href="https://store.fastly.steamstatic.com/public/css/v6/recommended.css?v=mz89LgCM1XyI&amp;l=russian" rel="stylesheet" type="text/css" >
+<link href="https://store.fastly.steamstatic.com/public/css/v6/user_reviews_rewards.css?v=.H7VLxMXCsPKI" rel="stylesheet" type="text/css" >
+<link href="https://store.fastly.steamstatic.com/public/shared/css/apphub.css?v=euQnYvdApZ68&amp;l=russian" rel="stylesheet" type="text/css" >
+<link href="https://store.fastly.steamstatic.com/public/shared/css/ui-lightness/jquery-ui-1.7.2.custom.css?v=.7XKDsxsKWgQU" rel="stylesheet" type="text/css" >
+<link href="https://store.fastly.steamstatic.com/public/css/v6/game_mob.css?v=wmKsWzJgadUP&amp;l=russian" rel="stylesheet" type="text/css" >
+<link href="https://store.fastly.steamstatic.com/public/shared/css/shared_responsive.css?v=r6syZUh8_Rpk&amp;l=russian" rel="stylesheet" type="text/css" >
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/jquery-1.8.3.min.js?v=._yTKOlvEGERY" ></script>
+<script type="text/javascript">$J = jQuery.noConflict();</script><script type="text/javascript">VALVE_PUBLIC_PATH = "https:\/\/store.fastly.steamstatic.com\/public\/";</script><script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/tooltip.js?v=.A1SQ8TFsd9zd" ></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/shared_global.js?v=7rLrM6dOdsjG&amp;l=russian" ></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/auth_refresh.js?v=w6QbwI-5-j2S&amp;l=russian" ></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/main.js?v=M-Z87xERQLto&amp;l=russian" ></script>
+
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/dynamicstore.js?v=_ZJy8jGzalB4&amp;l=russian" ></script>
+
+<script type="text/javascript">Object.seal && [ Object, Array, String, Number ].map( function( builtin ) { Object.seal( builtin.prototype ); } );</script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function(event) {
+				$J.data( document, 'x_readytime', new Date().getTime() );
+				$J.data( document, 'x_oldref', GetNavCookie() );
+				SetupTooltips( { tooltipCSSClass: 'store_tooltip'} );
+		});
+		</script><script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/gamehighlightplayer.js?v=w_ZlNz2LIKf3&amp;l=russian" ></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/user_reviews.js?v=ZJkqeW6orWJO&amp;l=russian" ></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/dselect.js?v=sfK6UJLNp872&amp;l=russian" ></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/app_tagging.js?v=NSjTW3X3TTS0&amp;l=russian" ></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/game.js?v=ZzARCAxR6a94&amp;l=russian" ></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.min.js?v=.lZqjnqvhGPA2" ></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.resize.min.js?v=.dc9V5dve6OT3" ></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.time.min.js?v=.s_nU3MZo5w3c" ></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/flot-0.8/jquery.flot.selection.min.js?v=.mJ13s3Eyu2jP" ></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/jquery-ui-1.9.2.js?v=.iBVFUYAMq0LS" ></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/shared/javascript/shared_responsive_adapter.js?v=OHdNdTEQflFo&amp;l=russian" ></script>
+
+						<meta name="twitter:card" content="summary_large_image">
+					<meta name="Description" content="Локальная и сетевая игра для компании от 4 до 15 игроков о командной работе и предательстве... в космосе!">
+			
+	<meta name="twitter:site" content="@steam" />
+
+						<meta property="og:title" content="Among Us в Steam">
+					<meta property="twitter:title" content="Among Us в Steam">
+					<meta property="og:type" content="website">
+					<meta property="fb:app_id" content="105386699540688">
+					<meta property="og:site" content="Steam">
+					<meta property="og:url" content="https://store.steampowered.com/app/945360/Among_Us/">
+					<meta property="og:description" content="Локальная и сетевая игра для компании от 4 до 15 игроков о командной работе и предательстве... в космосе!">
+					<meta property="twitter:description" content="Локальная и сетевая игра для компании от 4 до 15 игроков о командной работе и предательстве... в космосе!">
+			
+			<link rel="canonical" href="https://store.steampowered.com/app/945360/Among_Us/">
+	
+			<link rel="image_src" href="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/945360/capsule_616x353.jpg?t=1726265143">
+		<meta property="og:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/945360/capsule_616x353.jpg?t=1726265143">
+		<meta name="twitter:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/945360/capsule_616x353.jpg?t=1726265143" />
+				
+	
+	
+	
+	
+	</head>
+<body class="v6 app game_bg application responsive_page ">
+
+
+<div class="responsive_page_frame with_header">
+						<div role="navigation" class="responsive_page_menu_ctn mainmenu" aria-label="Мобильное меню">
+				<div class="responsive_page_menu"  id="responsive_page_menu">
+										<div class="mainmenu_contents">
+						<div class="mainmenu_contents_items">
+															<a class="menuitem" href="https://store.steampowered.com/login/?redir=app%2F945360%2FAmong_Us%2F%3Fl%3Drussian&redir_ssl=1&snr=1_5_9__global-header">
+									Войти								</a>
+															<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				Магазин			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu">
+						Главная											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_5_9__global-responsive-menu">
+						Рекомендации											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/my/wishlist/">
+						Список желаемого											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_5_9__global-responsive-menu">
+						Предметы за очки											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_5_9__global-responsive-menu">
+						Новости											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_5_9__global-responsive-menu">
+						Статистика											</a>
+							</div>
+										<a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				Сообщество			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Главная											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Обсуждения											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Мастерская											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Торговая площадка											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Трансляции											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/?snr=1_5_9__global-responsive-menu">
+				Информация			</a>
+										<a class="menuitem " href="https://help.steampowered.com/ru/">
+				Поддержка			</a>
+			
+							<div class="minor_menu_items">
+																								<div class="menuitem change_language_action">
+									Изменить язык								</div>
+																																	<a class="menuitem" href="https://store.steampowered.com/mobile" target="_blank" rel="noreferrer">Скачать мобильное приложение Steam</a>
+																									<div class="menuitem" onclick="Responsive_RequestDesktopView();">
+										Полная версия									</div>
+															</div>
+						</div>
+						<div class="mainmenu_footer_spacer  "></div>
+						<div class="mainmenu_footer">
+															<div class="mainmenu_footer_logo"><img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/logo_valve_footer.png"></div>
+								© Valve Corporation. Все права сохранены. Все торговые марки являются собственностью соответствующих владельцев в США и других странах.								<span class="mainmenu_valve_links">
+									<a href="https://store.steampowered.com/privacy_agreement/?snr=1_5_9__global-responsive-menu" target="_blank">Политика конфиденциальности</a>
+									&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">Правовая информация</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/subscriber_agreement/?snr=1_5_9__global-responsive-menu" target="_blank">Соглашение подписчика Steam</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/steam_refunds/?snr=1_5_9__global-responsive-menu" target="_blank">Возврат средств</a>
+								</span>
+													</div>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_local_menu_tab"></div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu"  id="responsive_page_local_menu" data-panel="{&quot;onOptionsActionDescription&quot;:&quot;\u0424\u0438\u043b\u044c\u0442\u0440\u043e\u0432\u0430\u0442\u044c&quot;,&quot;onOptionsButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;,&quot;onCancelButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;}">
+				<div class="localmenu_content" data-panel="{&quot;maintainY&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+				</div>
+			</div>
+		</div>
+
+
+
+					<div class="responsive_header">
+				<div class="responsive_header_content">
+					<div id="responsive_menu_logo">
+						<img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/header_menu_hamburger.png" height="100%">
+											</div>
+					<div class="responsive_header_logo">
+						<a href="https://store.steampowered.com/?snr=1_5_9__global-responsive-menu">
+															<img src="https://store.fastly.steamstatic.com/public/shared/images/responsive/header_logo.png" height="36" border="0" alt="STEAM">
+													</a>
+					</div>
+				</div>
+			</div>
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+
+		<div class="responsive_fixonscroll_ctn nonresponsive_hidden ">
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<div role="banner" id="global_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+	<div class="content">
+		<div class="logo">
+			<span id="logo_holder">
+									<a href="https://store.steampowered.com/?snr=1_5_9__global-header" aria-label="Ссылка на домашнюю страницу Steam">
+						<img src="https://store.fastly.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" width="176" height="44" alt="Ссылка на домашнюю страницу Steam">
+					</a>
+							</span>
+		</div>
+
+			<div role="navigation" class="supernav_container" aria-label="Глобальное меню">
+								<a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_5_9__global-header" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				МАГАЗИН			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/?snr=1_5_9__global-header">
+						Главная											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_5_9__global-header">
+						Рекомендации											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/my/wishlist/">
+						Список желаемого											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_5_9__global-header">
+						Предметы за очки											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_5_9__global-header">
+						Новости											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_5_9__global-header">
+						Статистика											</a>
+							</div>
+										<a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				СООБЩЕСТВО			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Главная											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Обсуждения											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Мастерская											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Торговая площадка											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Трансляции											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/?snr=1_5_9__global-header">
+				Информация			</a>
+										<a class="menuitem " href="https://help.steampowered.com/ru/">
+				ПОДДЕРЖКА			</a>
+				</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('#global_header .supernav').v_tooltip({'location':'bottom', 'destroyWhenDone': false, 'tooltipClass': 'supernav_content', 'offsetY':-6, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false});
+		});
+	</script>
+
+		<div id="global_actions">
+			<div role="navigation" id="global_action_menu" aria-label="Меню аккаунта">
+									<a class="header_installsteam_btn header_installsteam_btn_green" href="https://store.steampowered.com/about/?snr=1_5_9__global-header">
+						<div class="header_installsteam_btn_content">
+							Установить Steam						</div>
+					</a>
+				
+				
+									<a class="global_action_link" href="https://store.steampowered.com/login/?redir=app%2F945360%2FAmong_Us%2F%3Fl%3Drussian&redir_ssl=1&snr=1_5_9__global-header">войти</a>
+											&nbsp;|&nbsp;
+						<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">язык</span>
+						<div class="popup_block_new" id="language_dropdown" style="display: none;">
+							<div class="popup_body popup_menu">
+																																					<a class="popup_menu_item tight" href="?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">简体中文 (упрощенный китайский)</a>
+																													<a class="popup_menu_item tight" href="?l=tchinese" onclick="ChangeLanguage( 'tchinese' ); return false;">繁體中文 (традиционный китайский)</a>
+																													<a class="popup_menu_item tight" href="?l=japanese" onclick="ChangeLanguage( 'japanese' ); return false;">日本語 (японский)</a>
+																													<a class="popup_menu_item tight" href="?l=koreana" onclick="ChangeLanguage( 'koreana' ); return false;">한국어 (корейский)</a>
+																													<a class="popup_menu_item tight" href="?l=thai" onclick="ChangeLanguage( 'thai' ); return false;">ไทย (тайский)</a>
+																													<a class="popup_menu_item tight" href="?l=bulgarian" onclick="ChangeLanguage( 'bulgarian' ); return false;">Български (болгарский)</a>
+																													<a class="popup_menu_item tight" href="?l=czech" onclick="ChangeLanguage( 'czech' ); return false;">Čeština (чешский)</a>
+																													<a class="popup_menu_item tight" href="?l=danish" onclick="ChangeLanguage( 'danish' ); return false;">Dansk (датский)</a>
+																													<a class="popup_menu_item tight" href="?l=german" onclick="ChangeLanguage( 'german' ); return false;">Deutsch (немецкий)</a>
+																													<a class="popup_menu_item tight" href="?l=english" onclick="ChangeLanguage( 'english' ); return false;">English (английский)</a>
+																													<a class="popup_menu_item tight" href="?l=spanish" onclick="ChangeLanguage( 'spanish' ); return false;">Español - España (испанский)</a>
+																													<a class="popup_menu_item tight" href="?l=latam" onclick="ChangeLanguage( 'latam' ); return false;">Español - Latinoamérica (латиноам. испанский)</a>
+																													<a class="popup_menu_item tight" href="?l=greek" onclick="ChangeLanguage( 'greek' ); return false;">Ελληνικά (греческий)</a>
+																													<a class="popup_menu_item tight" href="?l=french" onclick="ChangeLanguage( 'french' ); return false;">Français (французский)</a>
+																													<a class="popup_menu_item tight" href="?l=italian" onclick="ChangeLanguage( 'italian' ); return false;">Italiano (итальянский)</a>
+																													<a class="popup_menu_item tight" href="?l=indonesian" onclick="ChangeLanguage( 'indonesian' ); return false;">Bahasa Indonesia (индонезийский)</a>
+																													<a class="popup_menu_item tight" href="?l=hungarian" onclick="ChangeLanguage( 'hungarian' ); return false;">Magyar (венгерский)</a>
+																													<a class="popup_menu_item tight" href="?l=dutch" onclick="ChangeLanguage( 'dutch' ); return false;">Nederlands (нидерландский)</a>
+																													<a class="popup_menu_item tight" href="?l=norwegian" onclick="ChangeLanguage( 'norwegian' ); return false;">Norsk (норвежский)</a>
+																													<a class="popup_menu_item tight" href="?l=polish" onclick="ChangeLanguage( 'polish' ); return false;">Polski (польский)</a>
+																													<a class="popup_menu_item tight" href="?l=portuguese" onclick="ChangeLanguage( 'portuguese' ); return false;">Português (португальский)</a>
+																													<a class="popup_menu_item tight" href="?l=brazilian" onclick="ChangeLanguage( 'brazilian' ); return false;">Português-Brasil (бразильский португальский)</a>
+																													<a class="popup_menu_item tight" href="?l=romanian" onclick="ChangeLanguage( 'romanian' ); return false;">Română (румынский)</a>
+																																							<a class="popup_menu_item tight" href="?l=finnish" onclick="ChangeLanguage( 'finnish' ); return false;">Suomi (финский)</a>
+																													<a class="popup_menu_item tight" href="?l=swedish" onclick="ChangeLanguage( 'swedish' ); return false;">Svenska (шведский)</a>
+																													<a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">Türkçe (турецкий)</a>
+																													<a class="popup_menu_item tight" href="?l=vietnamese" onclick="ChangeLanguage( 'vietnamese' ); return false;">Tiếng Việt (вьетнамский)</a>
+																													<a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">Українська (украинский)</a>
+																									<a class="popup_menu_item tight" href="https://www.valvesoftware.com/en/contact?contact-person=Translation%20Team%20Feedback" target="_blank">Сообщить о проблеме с переводом</a>
+							</div>
+						</div>
+												</div>
+					</div>
+			</div>
+</div>
+<div id="responsive_store_nav_ctn"></div><div id="responsive_store_nav_overlay" style="display:none"><div id="responsive_store_nav_overlay_ctn"></div><div id="responsive_store_nav_overlay_bottom"></div></div><div id="responsive_store_search_overlay" style="display:none"></div><div data-cart-banner-spot="1"></div>
+		<div role="main" class="responsive_page_template_content" id="responsive_page_template_content" data-panel="{&quot;autoFocus&quot;:true}" >
+
+			<div id="application_config" style="display: none;"  data-config="{&quot;EUNIVERSE&quot;:1,&quot;WEB_UNIVERSE&quot;:&quot;public&quot;,&quot;LANGUAGE&quot;:&quot;russian&quot;,&quot;COUNTRY&quot;:&quot;RU&quot;,&quot;MEDIA_CDN_COMMUNITY_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/steamcommunity\/public\/&quot;,&quot;MEDIA_CDN_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/&quot;,&quot;VIDEO_CDN_URL&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_ASSET_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/steamcommunity\/public\/assets\/&quot;,&quot;STORE_CDN_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/&quot;,&quot;PUBLIC_SHARED_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/public\/shared\/&quot;,&quot;COMMUNITY_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;CHAT_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;STORE_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;STORE_CHECKOUT_BASE_URL&quot;:&quot;https:\/\/checkout.steampowered.com\/&quot;,&quot;IMG_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/public\/images\/&quot;,&quot;STEAMTV_BASE_URL&quot;:&quot;https:\/\/steam.tv\/&quot;,&quot;HELP_BASE_URL&quot;:&quot;https:\/\/help.steampowered.com\/&quot;,&quot;PARTNER_BASE_URL&quot;:&quot;https:\/\/partner.steamgames.com\/&quot;,&quot;STATS_BASE_URL&quot;:&quot;https:\/\/partner.steampowered.com\/&quot;,&quot;INTERNAL_STATS_BASE_URL&quot;:&quot;https:\/\/steamstats.valve.org\/&quot;,&quot;IN_CLIENT&quot;:false,&quot;USE_POPUPS&quot;:false,&quot;STORE_ICON_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/&quot;,&quot;STORE_ITEM_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/&quot;,&quot;WEBAPI_BASE_URL&quot;:&quot;https:\/\/api.steampowered.com\/&quot;,&quot;TOKEN_URL&quot;:&quot;https:\/\/store.steampowered.com\/\/chat\/clientjstoken&quot;,&quot;BUILD_TIMESTAMP&quot;:1731737351,&quot;PAGE_TIMESTAMP&quot;:1731741287,&quot;IN_TENFOOT&quot;:false,&quot;IN_GAMEPADUI&quot;:false,&quot;IN_CHROMEOS&quot;:false,&quot;IN_MOBILE_WEBVIEW&quot;:false,&quot;PLATFORM&quot;:&quot;windows&quot;,&quot;BASE_URL_STORE_CDN_ASSETS&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/store\/&quot;,&quot;EREALM&quot;:1,&quot;LOGIN_BASE_URL&quot;:&quot;https:\/\/login.steampowered.com\/&quot;,&quot;AVATAR_BASE_URL&quot;:&quot;https:\/\/avatars.fastly.steamstatic.com\/&quot;,&quot;FROM_WEB&quot;:true,&quot;WEBSITE_ID&quot;:&quot;Store&quot;,&quot;BASE_URL_SHARED_CDN&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/&quot;,&quot;CLAN_CDN_ASSET_URL&quot;:&quot;https:\/\/clan.fastly.steamstatic.com\/&quot;,&quot;SNR&quot;:&quot;1_5_9_&quot;}" data-userinfo="{&quot;logged_in&quot;:false,&quot;country_code&quot;:&quot;RU&quot;}" data-broadcastuser="{&quot;success&quot;:1,&quot;bHideStoreBroadcast&quot;:false}" data-store_page_asset_url="&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/945360\/%s?t=1726265143&quot;" data-store_user_config="{&quot;webapi_token&quot;:&quot;&quot;,&quot;shoppingcart&quot;:null,&quot;originating_navdata&quot;:{&quot;domain&quot;:&quot;store.steampowered.com&quot;,&quot;controller&quot;:&quot;external-site&quot;,&quot;method&quot;:&quot;referral&quot;,&quot;submethod&quot;:&quot;&quot;,&quot;feature&quot;:&quot;google&quot;,&quot;depth&quot;:0,&quot;countrycode&quot;:&quot;&quot;,&quot;webkey&quot;:null,&quot;is_client&quot;:false,&quot;curator_data&quot;:null,&quot;is_likely_bot&quot;:false,&quot;is_utm&quot;:false}}"></div><div id="application_root"></div><script>window.g_wapit="";</script><link href="https://store.fastly.steamstatic.com/public/css/applications/store/main.css?v=Gk7kt_Qa8Xx9&amp;l=russian" rel="stylesheet" type="text/css" >
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/applications/store/manifest.js?v=6lwZj-zI4YUx&amp;l=russian" ></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/applications/store/libraries~b28b7af69.js?v=3PpFZKNtu7ia&amp;l=russian" ></script>
+<script type="text/javascript" src="https://store.fastly.steamstatic.com/public/javascript/applications/store/main.js?v=Oo1e6zP9-8dp&amp;l=russian" ></script>
+
+<script type="text/javascript">
+
+	var g_eDiscoveryQueueType = 0;
+
+	GStoreItemData.AddStoreItemDataSet(
+		{"rgApps":{"1260320":{"name":"Party Animals","url_name":"Party_Animals","discount_block":"<div class=\"discount_block \" data-price-final=\"74200\" data-bundlediscount=\"0\" data-discount=\"40\" role=\"link\" aria-label=\"\u0421\u043a\u0438\u0434\u043a\u0430 40%. \u041e\u0431\u044b\u0447\u043d\u0430\u044f \u0446\u0435\u043d\u0430 \u2014 1238 \u0440\u0443\u0431., \u0446\u0435\u043d\u0430 \u0441\u043e \u0441\u043a\u0438\u0434\u043a\u043e\u0439 \u2014 742 \u0440\u0443\u0431.\"><div class=\"discount_pct\">-40%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">1238 \u0440\u0443\u0431.<\/div><div class=\"discount_final_price\">742 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1260320\/capsule_184x69.jpg?t=1727320345","os_windows":true,"has_live_broadcast":false,"discount":true,"localized_english":true},"880940":{"name":"Pummel Party","url_name":"Pummel_Party","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"55000\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">550 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/880940\/capsule_184x69.jpg?t=1725311353","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"322330":{"name":"Don't Starve Together","url_name":"Dont_Starve_Together","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"34900\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">349 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/322330\/81357510a64a4adb5e8e7fc7f054dc4306baf2a5\/capsule_184x69_alt_assets_38.jpg?t=1730150710","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"status_string":"Just Updated!"},"673750":{"name":"Super Bunny Man","url_name":"Super_Bunny_Man","discount_block":"<div class=\"discount_block \" data-price-final=\"44700\" data-bundlediscount=\"0\" data-discount=\"35\" role=\"link\" aria-label=\"\u0421\u043a\u0438\u0434\u043a\u0430 35%. \u041e\u0431\u044b\u0447\u043d\u0430\u044f \u0446\u0435\u043d\u0430 \u2014 689 \u0440\u0443\u0431., \u0446\u0435\u043d\u0430 \u0441\u043e \u0441\u043a\u0438\u0434\u043a\u043e\u0439 \u2014 447 \u0440\u0443\u0431.\"><div class=\"discount_pct\">-35%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">689 \u0440\u0443\u0431.<\/div><div class=\"discount_final_price\">447 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/673750\/5613e86f95b528938211d22326e29cddcabcf669\/capsule_184x69.jpg?t=1724681904","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true},"2695940":{"name":"PANICORE","url_name":"PANICORE","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"20000\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">200 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2695940\/capsule_184x69.jpg?t=1729356822","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"1568590":{"name":"Goose Goose Duck","url_name":"Goose_Goose_Duck","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">\u0411\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1568590\/capsule_184x69.jpg?t=1728406154","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"386940":{"name":"Ultimate Chicken Horse","url_name":"Ultimate_Chicken_Horse","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"54900\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">549 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/386940\/capsule_184x69.jpg?t=1725897577","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"960090":{"name":"Bloons TD 6","url_name":"Bloons_TD_6","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"30900\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">309 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/960090\/capsule_184x69.jpg?t=1723603688","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"437920":{"name":"Tricky Towers","url_name":"Tricky_Towers","discount_block":"<div class=\"discount_block \" data-price-final=\"18100\" data-bundlediscount=\"0\" data-discount=\"67\" role=\"link\" aria-label=\"\u0421\u043a\u0438\u0434\u043a\u0430 67%. \u041e\u0431\u044b\u0447\u043d\u0430\u044f \u0446\u0435\u043d\u0430 \u2014 550 \u0440\u0443\u0431., \u0446\u0435\u043d\u0430 \u0441\u043e \u0441\u043a\u0438\u0434\u043a\u043e\u0439 \u2014 181 \u0440\u0443\u0431.\"><div class=\"discount_pct\">-67%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">550 \u0440\u0443\u0431.<\/div><div class=\"discount_final_price\">181 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/437920\/capsule_184x69.jpg?t=1730451129","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true},"2211170":{"name":"Unrailed 2: Back on Track","url_name":"Unrailed_2_Back_on_Track","discount_block":"<div class=\"discount_block \" data-price-final=\"99000\" data-bundlediscount=\"0\" data-discount=\"10\" role=\"link\" aria-label=\"\u0421\u043a\u0438\u0434\u043a\u0430 10%. \u041e\u0431\u044b\u0447\u043d\u0430\u044f \u0446\u0435\u043d\u0430 \u2014 1100 \u0440\u0443\u0431., \u0446\u0435\u043d\u0430 \u0441\u043e \u0441\u043a\u0438\u0434\u043a\u043e\u0439 \u2014 990 \u0440\u0443\u0431.\"><div class=\"discount_pct\">-10%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">1100 \u0440\u0443\u0431.<\/div><div class=\"discount_final_price\">990 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2211170\/c2e6deb1c94585a6a250ef953f9ad0f1af29ae0e\/capsule_184x69.jpg?t=1730993583","os_windows":true,"os_macos":true,"early_access":true,"has_live_broadcast":true,"discount":true,"localized":true,"localized_english":true},"559650":{"name":"Witch It","url_name":"Witch_It","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"79900\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">799 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/559650\/6baf92066c6d4bc759b5f00f5f50c3c4a9a05692\/capsule_184x69.jpg?t=1730740673","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"2644470":{"name":"PICO PARK 2","url_name":"PICO_PARK_2","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"35000\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">350 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2644470\/capsule_184x69.jpg?t=1726674876","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized_english":true},"211820":{"name":"Starbound","url_name":"Starbound","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"55000\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">550 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/211820\/capsule_184x69.jpg?t=1730828214","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized_english":true},"1509960":{"name":"PICO PARK","url_name":"PICO_PARK","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"13300\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">133 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1509960\/capsule_184x69.jpg?t=1726674844","os_windows":true,"has_live_broadcast":false,"localized_english":true},"427730":{"name":"Who's Your Daddy?!","url_name":"Whos_Your_Daddy","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"19900\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">199 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/427730\/capsule_184x69.jpg?t=1726183140","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized_english":true},"985890":{"name":"Streets of Rage 4","url_name":"Streets_of_Rage_4","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"88000\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">880 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/985890\/capsule_184x69.jpg?t=1728893320","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"1016920":{"name":"Unrailed!","url_name":"Unrailed","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"79900\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">799 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1016920\/capsule_184x69.jpg?t=1730139316","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"674940":{"name":"Stick Fight: The Game","url_name":"Stick_Fight_The_Game","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"19900\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">199 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/674940\/capsule_184x69.jpg?t=1730715399","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized_english":true},"2708450":{"name":"Oh Deer","url_name":"Oh_Deer","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"38500\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">385 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2708450\/capsule_184x69.jpg?t=1729223355","os_windows":true,"has_live_broadcast":false,"localized_english":true},"1570330":{"name":"West Hunt","url_name":"West_Hunt","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"25900\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">259 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1570330\/capsule_184x69.jpg?t=1729078384","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"1686940":{"name":"Bopl Battle","url_name":"Bopl_Battle","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"38500\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">385 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1686940\/capsule_184x69.jpg?t=1716902936","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"1607680":{"name":"Bread &amp; Fred","url_name":"Bread__Fred","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"55000\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">550 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1607680\/f5df5f261dc7c5c58bda1f1c3709fefa80d78466\/capsule_184x69.jpg?t=1730929666","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized_english":true},"366250":{"name":"METAL SLUG","url_name":"METAL_SLUG","discount_block":"<div class=\"discount_block \" data-price-final=\"3700\" data-bundlediscount=\"0\" data-discount=\"80\" role=\"link\" aria-label=\"\u0421\u043a\u0438\u0434\u043a\u0430 80%. \u041e\u0431\u044b\u0447\u043d\u0430\u044f \u0446\u0435\u043d\u0430 \u2014 189 \u0440\u0443\u0431., \u0446\u0435\u043d\u0430 \u0441\u043e \u0441\u043a\u0438\u0434\u043a\u043e\u0439 \u2014 37 \u0440\u0443\u0431.\"><div class=\"discount_pct\">-80%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">189 \u0440\u0443\u0431.<\/div><div class=\"discount_final_price\">37 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/366250\/capsule_184x69.jpg?t=1727156570","os_windows":true,"has_live_broadcast":false,"discount":true,"localized":true,"localized_english":true},"843380":{"name":"Super Animal Royale","url_name":"Super_Animal_Royale","discount_block":"<div class=\"discount_block empty \"><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/843380\/capsule_184x69.jpg?t=1731726144","os_windows":true,"os_macos":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"466240":{"name":"Deceit","url_name":"Deceit","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"0\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">\u0411\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u044b\u0435<\/div><\/div><\/div>","descids":[2,5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/466240\/capsule_184x69.jpg?t=1726502568","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true,"has_adult_content_violence":true},"2749770":{"name":"Galaxy Burger","url_name":"Galaxy_Burger","discount_block":"<div class=\"discount_block \" data-price-final=\"28800\" data-bundlediscount=\"0\" data-discount=\"20\" role=\"link\" aria-label=\"\u0421\u043a\u0438\u0434\u043a\u0430 20%. \u041e\u0431\u044b\u0447\u043d\u0430\u044f \u0446\u0435\u043d\u0430 \u2014 360 \u0440\u0443\u0431., \u0446\u0435\u043d\u0430 \u0441\u043e \u0441\u043a\u0438\u0434\u043a\u043e\u0439 \u2014 288 \u0440\u0443\u0431.\"><div class=\"discount_pct\">-20%<\/div><div class=\"discount_prices\"><div class=\"discount_original_price\">360 \u0440\u0443\u0431.<\/div><div class=\"discount_final_price\">288 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2749770\/capsule_184x69.jpg?t=1731513748","os_windows":true,"has_live_broadcast":true,"discount":true,"localized":true,"localized_english":true},"1005300":{"name":"The Jackbox Party Pack 6","url_name":"The_Jackbox_Party_Pack_6","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"110000\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">1100 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1005300\/capsule_184x69.jpg?t=1728584590","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized_english":true},"774861":{"name":"Project Winter","url_name":"Project_Winter","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"25900\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">259 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[5],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/774861\/capsule_184x69.jpg?t=1727983140","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"238460":{"name":"BattleBlock Theater\u00ae","url_name":"BattleBlock_Theater","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"44900\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">449 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/238460\/capsule_184x69.jpg?t=1731371079","os_windows":true,"os_macos":true,"os_linux":true,"has_live_broadcast":false,"localized":true,"localized_english":true},"2725200":{"name":"Prisoners","url_name":"Prisoners","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"20000\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">200 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"small_capsulev5":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/2725200\/capsule_184x69.jpg?t=1723709918","os_windows":true,"has_live_broadcast":false,"localized":true,"localized_english":true}},"rgPackages":{"701897":{"name":"Among Us VR","url_name":"Among_Us_VR","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"39900\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">399 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/1849900\/capsule_sm_120.jpg?t=1730826330","tags":["VR","\u0414\u043b\u044f \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u0438\u0445 \u0438\u0433\u0440\u043e\u043a\u043e\u0432","\u0425\u043e\u0440\u0440\u043e\u0440","\u0421\u043e\u0446\u0438\u0430\u043b\u044c\u043d\u0430\u044f \u0434\u0435\u0434\u0443\u043a\u0446\u0438\u044f","\u041f\u0441\u0438\u0445\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0430\u044f"],"tagids":[21978,3859,1667,745697,5186,7178],"os_windows":true,"vr_htcvive":true,"vr_oculusrift":true,"vr_windowsmr":true,"appids":[1849900],"has_live_broadcast":false,"localized_english":true},"307391":{"name":"Among Us","url_name":"Among_Us","discount_block":"<div class=\"discount_block  no_discount\" data-price-final=\"22500\" data-bundlediscount=\"0\" data-discount=\"0\"><div class=\"discount_prices\"><div class=\"discount_final_price\">225 \u0440\u0443\u0431.<\/div><\/div><\/div>","descids":[],"tiny_capsule":"https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/945360\/capsule_sm_120.jpg?t=1726265143","tags":["\u0414\u043b\u044f \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u0438\u0445 \u0438\u0433\u0440\u043e\u043a\u043e\u0432","\u0421\u0435\u0442\u0435\u0432\u043e\u0439 \u043a\u043e\u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432","\u0421\u043e\u0446\u0438\u0430\u043b\u044c\u043d\u0430\u044f \u0434\u0435\u0434\u0443\u043a\u0446\u0438\u044f","\u041a\u043e\u0441\u043c\u043e\u0441","\u0412\u044b\u0436\u0438\u0432\u0430\u043d\u0438\u0435"],"tagids":[3859,3843,745697,1755,1662,3871],"os_windows":true,"appids":[945360],"has_live_broadcast":false,"localized":true,"localized_english":true}},"rgBundles":[]}	);
+	GStoreItemData.AddNavParams( {
+		recommended: "1_5_9__300",
+		recommend_franchise: "1_5_9__316",
+		more_from_franchise: "1_5_9__317",
+		bundle_component_preview: "1_5_9__412",
+		recommended_ranked_played: "1_5_9__862",
+	} );
+
+	
+	$J( function() {
+		var $Expander = $J('#devnotes_expander');
+		if( $Expander.length && $Expander.height() < parseInt( $Expander.css('max-height') ) ) {
+			$J('#devnotes_more').hide();
+		}
+
+		CollapseLongStrings( '.dev_row .summary.column' );
+
+				InitAutocollapse();
+		InitHorizontalAutoSliders();
+
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_details_right', $J('#responsive_apppage_details_right_ctn') );
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_details_left', $J('#responsive_apppage_details_left_ctn') );
+		Responsive_ReparentItemsInResponsiveMode( '.responsive_apppage_reviewblock', $J('#responsive_apppage_reviewblock_ctn') );
+
+		//hack to workaround chrome bug
+		$J('#responsive_apppage_reviewblock_ctn' ).css('width', '100%' );
+		window.setTimeout( function() { $J('#responsive_apppage_reviewblock_ctn').css('width', '' ); }, 1 );
+
+				var watcher = new CScrollOffsetWatcher( $J('#app_reviews_hash'), OnLoadReviews );
+		watcher.SetBufferHeight( 0 );
+
+				InitPlaytimeFilterSlider();
+		
+		// on Tablet wait to do this when the window is fully loaded - see OnPageLoaded()
+				ReparentAppLandingPageForSmallScreens();
+		
+        
+				AddRightNavStickyPaddingOnTablet();
+		
+			var usability = InitUsabilityTracker( "https:\/\/store.steampowered.com\/app\/usabilitytracking\/945360" );
+		usability.ScheduleUpload();
+	
+		
+	} );
+
+	
+	function OpenTagModal()
+	{
+		ShowAppTagModal( 945360 );
+	}
+
+</script>
+
+<div class="game_page_background game" style="background-image: url('https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/945360/page_bg_generated_v6b.jpg?t=1726265143');" data-miniprofile-appid=945360>
+
+			<div class="banner_open_in_steam">
+			<div data-featuretarget="open-in-desktop-client"></div>
+		</div>
+	
+		
+	
+    	    <div id="store_header" role="navigation" aria-label="Меню магазина" class="">
+		<div class="content">
+			<div id="store_controls">
+				<div class="cart_status_flex" id="cart_status_data">
+															
+													<div  data-featuretarget="shoppingcart-count-widget" data-props="{&quot;count&quot;:0}"></div>															</div>
+			</div>
+			
+												<div id="store_nav_area">
+					<div class="store_nav_leftcap"></div>
+					<div class="store_nav_bg">
+						<div class="store_nav" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" >
+
+						
+							<div class="tab  flyout_tab " id="foryou_tab"
+								 data-flyout="foryou_flyout" data-flyout-align="left" data-flyout-valign="bottom" data-flyout-delay="300"
+								data-panel="{&quot;focusable&quot;:true}" >
+								<span class="pulldown">
+									<a class="pulldown_desktop" href="https://store.steampowered.com/?snr=1_5_9__12">Магазин</a>
+									<a class="pulldown_mobile" href="#">Магазин</a>
+									<span></span>
+								</span>
+							</div>
+							<div class="popup_block_new flyout_tab_flyout responsive_slidedown" id="foryou_flyout" style="display: none;">
+								<div class="popup_body popup_menu popup_menu_browse">
+									<a class="popup_menu_item" href="https://store.steampowered.com/?snr=1_5_9__12">
+										Главная страница									</a>
+                                                                            <a class="popup_menu_item" href="https://store.steampowered.com/communityrecommendations/?snr=1_5_9__12">
+                                            Рекомендации сообщества                                        </a>
+                                    									<a class="popup_menu_item" href="https://store.steampowered.com/recommended/?snr=1_5_9__12">
+										Недавно просмотренные									</a>
+                                                                            <a class="popup_menu_item" href="https://store.steampowered.com/curators/?snr=1_5_9__12">
+                                            Кураторы Steam                                        </a>
+                                    								</div>
+							</div>
+						
+														<div class="store_labs_new"></div>
+                            <div class="tab  flyout_tab " id="noteworthy_tab"
+								 data-flyout="noteworthy_flyout" data-flyout-align="left" data-flyout-valign="bottom" data-flyout-delay="300" data-panel="{&quot;focusable&quot;:true}" >
+								<span class="pulldown">
+									<a href="javascript:void(0);" class="pulldown_desktop">Новое и интересное</a>
+									<a href="javascript:void(0);" class="pulldown_mobile">Новое и интересное</a>
+									<span></span>
+								</span>
+                            </div>
+                            <div class="popup_block_new flyout_tab_flyout responsive_slidedown" id="noteworthy_flyout" style="display: none;">
+								<div class="popup_body popup_menu_twocol_new">
+									<div class="popup_menu popup_menu_browse" data-panel="{&quot;maintainY&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}" >
+										<div class="popup_menu_subheader responsive_hidden">Популярные</div>
+
+										<a class="popup_menu_item" href="https://store.steampowered.com/charts/topselling/?snr=1_5_9__12">
+											Лидеры продаж										</a>
+										<a class="popup_menu_item" href="https://store.steampowered.com/charts/mostplayed/?snr=1_5_9__12">
+											Самые популярные										</a>
+
+										<div class="category_hr responsive_hidden"></div>
+
+										<a class="popup_menu_item" href="https://store.steampowered.com/explore/new/?snr=1_5_9__12">
+											Новинки										</a>
+
+										<a class="popup_menu_item" href="https://store.steampowered.com/explore/upcoming/?snr=1_5_9__12">
+											Будущие продукты										</a>
+
+										<div class="popup_menu_subheader responsive_hidden">Новости и обновления</div>
+
+										<a class="popup_menu_item" href="https://store.steampowered.com/newshub/?snr=1_5_9__12">
+											Недавно обновлённые										</a>
+
+									</div>
+
+									<div class="popup_menu popup_menu_browse leftborder" data-panel="{&quot;maintainY&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}" >
+										<div class="popup_menu_subheader responsive_hidden">Промоакции и события</div>
+
+										<a class="popup_menu_item" href="https://store.steampowered.com/specials/?snr=1_5_9__12">
+											Специальные предложения										</a>
+
+										<a class="popup_menu_item" href="https://store.steampowered.com/news/collection/sales/?snr=1_5_9__12">
+											Распродажи										</a>
+
+										<div class="category_hr responsive_hidden"></div>
+
+                                        <a class="popup_menu_item" href="https://store.steampowered.com/yearinreview?src=7&snr=1_5_9__12">
+											Итоги года Steam											                                        </a>
+
+                                        <a class="popup_menu_item" href="https://store.steampowered.com/sale/nextfest?snr=1_5_9__12">
+											Фестиваль «Играм быть»										</a>
+
+										<a class="popup_menu_item" href="https://store.steampowered.com/sale/steam_awards?snr=1_5_9__12">
+											Премия Steam										</a>
+
+
+									</div>
+
+									<!--
+                                    <div class="popup_menu_subheader">Распродажи
+									</div>
+
+                                    <a class="popup_menu_item" href="https://store.steampowered.com/search/?specials=1&snr=1_5_9__12">
+                                        Weekly Specials
+                                    </a>
+                                    <a class="popup_menu_item" href="https://store.steampowered.com/sale/vr_specials/?snr=1_5_9__12">
+                                        Weekly VR Specials
+                                    </a>
+                                    -->
+                                </div>
+                            </div>
+
+															<div class="tab  flyout_tab " id="genre_tab"
+									 data-flyout="genre_flyout" data-flyout-align="left" data-flyout-valign="bottom" data-flyout-align-to-element="foryou_tab" data-flyout-delay="300"
+									data-panel="{&quot;focusable&quot;:true}" >
+									<span class="pulldown">
+										<a class="pulldown_desktop" href="javascript:void(0);">Категории</a>
+										<a class="pulldown_mobile" href="javascript:void(0);">Категории</a>
+										<span></span>
+									</span>
+								</div>
+								<div class="popup_block_new flyout_tab_flyout responsive_slidedown" id="genre_flyout" style="display: none;">
+									<div class="popup_body popup_menu_twocol_new">
+										<div class="popup_menu popup_menu_browse" data-panel="{&quot;maintainY&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}" >
+
+										<div class="popup_menu_subheader responsive_hidden">Особые разделы</div>
+																																																																							<a class="popup_menu_item" href="https://store.steampowered.com/genre/Free%20to%20Play/?snr=1_5_9__12">
+														Бесплатные													</a>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						<a class="popup_menu_item" href="https://store.steampowered.com/demos/?snr=1_5_9__12">
+														<span>Демоверсии</span>
+													</a>
+																										<a class="popup_menu_item" href="https://store.steampowered.com/genre/Early%20Access/?snr=1_5_9__12">
+														Ранний доступ													</a>
+																																																																																																																																																																																																																																																																																																												<div class="category_hr responsive_hidden"></div>
+
+																							<a class="popup_menu_item" href="https://store.steampowered.com/steamdeck/?snr=1_5_9__category-menu">
+													<span>Steam Deck</span>
+												</a>
+
+												<a class="popup_menu_item" href="https://store.steampowered.com/greatondeck/?snr=1_5_9__category-menu">
+													<span>Отлично на Deck</span>
+												</a>
+
+												<div class="category_hr responsive_hidden"></div>
+
+												<a class="popup_menu_item" href="https://store.steampowered.com/controller/?snr=1_5_9__12">
+													<span>С поддержкой контроллеров</span>
+												</a>
+
+												<a class="popup_menu_item" href="https://store.steampowered.com/remoteplay_hub/?snr=1_5_9__12">
+													<span>Remote Play</span>
+												</a>
+
+												<div class="category_hr responsive_hidden"></div>
+
+												<a class="popup_menu_item" href="https://store.steampowered.com/vr/?snr=1_5_9__12">
+													<span>Продукты для VR</span>
+												</a>
+
+												<a class="popup_menu_item" href="https://store.steampowered.com/vrhardware/?snr=1_5_9__12">
+													<span>VR-устройства</span>
+												</a>
+
+												<div class="category_hr responsive_hidden"></div>
+											
+
+
+                                            <a class="popup_menu_item" href="https://store.steampowered.com/software/?snr=1_5_9__12">
+                                                Программы											</a>
+
+											<a class="popup_menu_item" href="https://store.steampowered.com/soundtracks?snr=1_5_9__12">
+												Саундтреки											</a>
+
+											<div class="category_hr responsive_hidden"></div>
+
+																							<a class="popup_menu_item" href="https://store.steampowered.com/macos?snr=1_5_9__12">
+													macOS												</a>
+												<a class="popup_menu_item" href="https://store.steampowered.com/linux?snr=1_5_9__12">
+													SteamOS и Linux												</a>
+
+												<a class="popup_menu_item" href="https://store.steampowered.com/pccafe/?snr=1_5_9__12">
+													<span>Для интернет-кафе</span>
+												</a>
+
+																					</div>
+																					<div class="popup_menu popup_menu_browse leftborder" data-panel="{&quot;maintainY&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+																								<div class="popup_menu_subheader reduced_vspace">
+													Жанры
+												</div>
+																																				<div class="popup_menu_item popup_genre_expand_header nonresponsive_hidden" data-genre-group="action">
+														Экшен													</div>
+																									<div class="popup_menu_subheader popup_genre_expand_header responsive_hidden" data-genre-group="action">
+														<a class="popup_menu_item" href="https://store.steampowered.com/category/action/?snr=1_5_9__12">
+															Экшен														</a>
+													</div>
+																								<div class="popup_genre_expand_content responsive_hidden" data-genre-group="action">
+																											<a class="popup_menu_item" href="https://store.steampowered.com/category/shmup/?snr=1_5_9__12">Shoot 'em up</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/arcade_rhythm/?snr=1_5_9__12">Аркада и ритм-игра</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/action_run_jump/?snr=1_5_9__12">Платформер и раннер</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/hack_and_slash/?snr=1_5_9__12">Слэшеры</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/fighting_martial_arts/?snr=1_5_9__12">Файтинги и боевые искусства</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/action_fps/?snr=1_5_9__12">Шутер от первого лица</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/action_tps/?snr=1_5_9__12">Шутер от третьего лица</a>
+																										</div>
+																									<div class="popup_menu_item popup_genre_expand_header nonresponsive_hidden" data-genre-group="adventure">
+														Приключенческая игра													</div>
+																									<div class="popup_menu_subheader popup_genre_expand_header responsive_hidden" data-genre-group="adventure">
+														<a class="popup_menu_item" href="https://store.steampowered.com/category/adventure/?snr=1_5_9__12">
+															Приключенческая игра														</a>
+													</div>
+																								<div class="popup_genre_expand_content responsive_hidden" data-genre-group="adventure">
+																											<a class="popup_menu_item" href="https://store.steampowered.com/category/visual_novel/?snr=1_5_9__12">Визуальная новелла</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/story_rich/?snr=1_5_9__12">Глубокий сюжет</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/puzzle_matching/?snr=1_5_9__12">Головоломка</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/casual/?snr=1_5_9__12">Казуальная игра</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/metroidvania/?snr=1_5_9__12">Метроидвания</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/hidden_object/?snr=1_5_9__12">Поиск предметов</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/adventure_rpg/?snr=1_5_9__12">Приключенческая ролевая игра</a>
+																										</div>
+												</div>											<div class="popup_menu popup_menu_browse " data-panel="{&quot;maintainY&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+																								<div class="popup_menu_subheader reduced_vspace responsive_hidden">
+													<br>
+												</div>
+																																				<div class="popup_menu_item popup_genre_expand_header nonresponsive_hidden" data-genre-group="rpg">
+														Ролевые игры													</div>
+																									<div class="popup_menu_subheader popup_genre_expand_header responsive_hidden" data-genre-group="rpg">
+														<a class="popup_menu_item" href="https://store.steampowered.com/category/rpg/?snr=1_5_9__12">
+															Ролевые игры														</a>
+													</div>
+																								<div class="popup_genre_expand_content responsive_hidden" data-genre-group="rpg">
+																											<a class="popup_menu_item" href="https://store.steampowered.com/category/rpg_party_based/?snr=1_5_9__12">Групповая ролевая игра</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/rpg_turn_based/?snr=1_5_9__12">Пошаговая ролевая игра</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/adventure_rpg/?snr=1_5_9__12">Приключенческая ролевая игра</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/rogue_like_rogue_lite/?snr=1_5_9__12">Рогалик</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/rpg_action/?snr=1_5_9__12">Ролевой экшен</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/rpg_strategy_tactics/?snr=1_5_9__12">Стратегическая ролевая игра</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/rpg_jrpg/?snr=1_5_9__12">Японская ролевая игра</a>
+																										</div>
+																									<div class="popup_menu_item popup_genre_expand_header nonresponsive_hidden" data-genre-group="simulation">
+														Симулятор													</div>
+																									<div class="popup_menu_subheader popup_genre_expand_header responsive_hidden" data-genre-group="simulation">
+														<a class="popup_menu_item" href="https://store.steampowered.com/category/simulation/?snr=1_5_9__12">
+															Симулятор														</a>
+													</div>
+																								<div class="popup_genre_expand_content responsive_hidden" data-genre-group="simulation">
+																											<a class="popup_menu_item" href="https://store.steampowered.com/category/sim_life/?snr=1_5_9__12">Жизнь и иммерсивные игры</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/sim_space_flight/?snr=1_5_9__12">Космос и полёты</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/sim_physics_sandbox/?snr=1_5_9__12">Песочницы и физика</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/sim_dating/?snr=1_5_9__12">Свидания</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/sim_building_automation/?snr=1_5_9__12">Строительство и автоматизация</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/sim_farming_crafting/?snr=1_5_9__12">Фермерство и крафтинг</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/sim_hobby_sim/?snr=1_5_9__12">Хобби и работа</a>
+																										</div>
+												</div>											<div class="popup_menu popup_menu_browse " data-panel="{&quot;maintainY&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+																								<div class="popup_menu_subheader reduced_vspace responsive_hidden">
+													<br>
+												</div>
+																																				<div class="popup_menu_item popup_genre_expand_header nonresponsive_hidden" data-genre-group="strategy">
+														Стратегия													</div>
+																									<div class="popup_menu_subheader popup_genre_expand_header responsive_hidden" data-genre-group="strategy">
+														<a class="popup_menu_item" href="https://store.steampowered.com/category/strategy/?snr=1_5_9__12">
+															Стратегия														</a>
+													</div>
+																								<div class="popup_genre_expand_content responsive_hidden" data-genre-group="strategy">
+																											<a class="popup_menu_item" href="https://store.steampowered.com/category/tower_defense/?snr=1_5_9__12">Башенная защита</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/strategy_military/?snr=1_5_9__12">Военная</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/strategy_grand_4x/?snr=1_5_9__12">Глобальная стратегия и 4X-игры</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/strategy_cities_settlements/?snr=1_5_9__12">Города и колонизация</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/strategy_card_board/?snr=1_5_9__12">Карточная и настольная игра</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/strategy_turn_based/?snr=1_5_9__12">Пошаговая стратегия</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/strategy_real_time/?snr=1_5_9__12">Стратегии в реальном времени</a>
+																										</div>
+																									<div class="popup_menu_item popup_genre_expand_header nonresponsive_hidden" data-genre-group="sports_and_racing">
+														Спорт и гонки													</div>
+																									<div class="popup_menu_subheader popup_genre_expand_header responsive_hidden" data-genre-group="sports_and_racing">
+														<a class="popup_menu_item" href="https://store.steampowered.com/category/sports_and_racing/?snr=1_5_9__12">
+															Спорт и гонки														</a>
+													</div>
+																								<div class="popup_genre_expand_content responsive_hidden" data-genre-group="sports_and_racing">
+																											<a class="popup_menu_item" href="https://store.steampowered.com/category/racing/?snr=1_5_9__12">Гонки</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/sports_individual/?snr=1_5_9__12">Индивидуальный спорт</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/sports_team/?snr=1_5_9__12">Командный спорт</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/sports_fishing_hunting/?snr=1_5_9__12">Охота и рыбалка</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/racing_sim/?snr=1_5_9__12">Симулятор гонок</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/sports/?snr=1_5_9__12">Спортивные игры</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/sports_sim/?snr=1_5_9__12">Спортивные симуляторы</a>
+																										</div>
+												</div>											<div class="popup_menu popup_menu_browse leftborder" data-panel="{&quot;maintainY&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+																																				<div class="popup_menu_item popup_genre_expand_header nonresponsive_hidden" data-genre-group="themes">
+														Темы													</div>
+																									<div class="popup_menu_subheader players popup_genre_expand_header responsive_hidden" >
+														Темы													</div>
+																								<div class="popup_genre_expand_content responsive_hidden" data-genre-group="themes">
+																											<a class="popup_menu_item" href="https://store.steampowered.com/category/anime/?snr=1_5_9__12">Аниме</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/survival/?snr=1_5_9__12">Выживание</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/space/?snr=1_5_9__12">Космос</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/science_fiction/?snr=1_5_9__12">Научная фантастика и киберпанк</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/exploration_open_world/?snr=1_5_9__12">Открытый мир</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/mystery_detective/?snr=1_5_9__12">Тайны и детективы</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/horror/?snr=1_5_9__12">Хоррор</a>
+														 <div class="spacer responsive_hidden"></div> 												</div>
+																									<div class="popup_menu_item popup_genre_expand_header nonresponsive_hidden" data-genre-group="social_and_players">
+														Число игроков													</div>
+																									<div class="popup_menu_subheader players popup_genre_expand_header responsive_hidden" >
+														Число игроков													</div>
+																								<div class="popup_genre_expand_content responsive_hidden" data-genre-group="social_and_players">
+																											<a class="popup_menu_item" href="https://store.steampowered.com/category/multiplayer_lan/?snr=1_5_9__12">Игра по локальной сети</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/multiplayer_coop/?snr=1_5_9__12">Кооперативы</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/multiplayer_local_party/?snr=1_5_9__12">Локальные мультиплееры и игры для вечеринок</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/multiplayer_mmo/?snr=1_5_9__12">Массовый мультиплеер</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/multiplayer/?snr=1_5_9__12">Многопользовательская игра</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/singleplayer/?snr=1_5_9__12">Одиночная игра</a>
+																												<a class="popup_menu_item" href="https://store.steampowered.com/category/multiplayer_online_competitive/?snr=1_5_9__12">Сетевая соревновательная игра</a>
+																										</div>
+												</div>									</div>
+								</div>
+							
+							                                                                <a class="tab  " href="https://store.steampowered.com/points/?snr=1_5_9__12">
+                                    <span>Предметы за очки</span>
+                                </a>
+                            
+                                                        <a class="tab  " href="https://store.steampowered.com/news/?snr=1_5_9__12">
+								<span>Новости</span>
+							</a>
+
+                                                                                            <a class="tab  " href="https://store.steampowered.com/labs/?snr=1_5_9__12">
+                                    <span>Лаборатории</span>
+                                </a>
+                            
+															<div class="search_flex_spacer"></div>
+								<div class="search_area">
+									<div id="store_search">
+										<form id="searchform" name="searchform" method="get" action="https://store.steampowered.com/search/" onsubmit="return SearchSuggestCheckTerm(this);" role="search">
+											<input type="hidden" name="snr" value="1_5_9__12" >
+											<div class="searchbox">
+												<input id="store_nav_search_term" name="term" type="search" class="default" placeholder="поиск" size="22" autocomplete="off" maxlength="64">
+												<a href="#" id="store_search_link" onclick="var $Form = $J(this).parents('form'); $Form.submit(); return false;" aria-label="Поиск в Steam"><img src="https://store.fastly.steamstatic.com/public/images/blank.gif" alt=""></a>
+											</div>
+										</form>
+									</div>
+									<div id="searchterm_options" class="search_suggest popup_block_new" style="display: none;">
+										<div class="popup_body search_v2" style="border-top: none;">
+											<div id="search_suggestion_contents">
+											</div>
+										</div>
+									</div>
+								</div>
+							
+						</div>
+					</div>
+					<div class="store_nav_rightcap"></div>
+				</div>
+							</div>
+	</div>
+    
+				<script type="text/javascript">
+			$J( function() {
+				BindAutoFlyoutEvents();
+
+				var $Window = $J(window);
+				var $Header = $J('#store_header');
+				var $ResponsiveNavWindowShadeCtn = $J('#responsive_store_nav_ctn');
+				var $ResponsiveNavOverlay = $J('#responsive_store_nav_overlay');
+				var $ResponsiveNavOverlayCtn = $J('#responsive_store_nav_overlay_ctn');
+				var $ResponsiveNavOverlayBottom = $J('#responsive_store_nav_overlay_bottom');
+				var $HeaderWrapper;
+				$Window.on('Responsive_SmallScreenModeToggled.StoreMenu', function() {
+					var bUseSmallScreenMode = window.UseSmallScreenMode && window.UseSmallScreenMode();
+
+											if ( !$HeaderWrapper )
+							$HeaderWrapper = $Header.wrap( $J('<div/>', {'class': 'responsive_store_nav_ctn_spacer'} ) ).parent();
+
+						if ( bUseSmallScreenMode )
+							$ResponsiveNavWindowShadeCtn.append( $Header );
+						else
+							$HeaderWrapper.append( $Header );
+
+
+						if ( bUseSmallScreenMode )
+						{
+							$Header.css( 'visibility', 'hidden' );
+							$Header.show();
+
+							var nStartingScrollPosition = $J('#store_header').height();
+							if ( $Window.scrollTop() < nStartingScrollPosition )
+								$Window.scrollTop( nStartingScrollPosition );
+
+							$Header.css('visibility', 'visible');
+						}
+									} );
+
+				window.setTimeout( function() { $J(window).trigger('Responsive_SmallScreenModeToggled.StoreMenu'); }, 0 );
+
+										var g_rgUserPreferences = {
+							excluded_tags : [],
+							excluded_content_descriptors : [3,4]						};
+						
+													g_rgUserPreferences['use_store_query'] = 1;
+						
+						g_rgUserPreferences['use_search_spellcheck'] = 1;
+						g_rgUserPreferences['search_creators_and_tags'] = 1;
+
+						if( $J('#searchform').length > 0 )
+						{
+							// default search support where the web page includes the search edit control
+							EnableSearchSuggestions( $J('#searchform')[0].elements['term'], '1_5_9_', 'RU', 1, 'russian', g_rgUserPreferences, '26224104' );
+						}
+						else
+						{
+							// search support for the mobile client.  the mobile client has a native search edit control but relies on the web content to perform the query and show results
+													}
+				
+				// make genre categories expand/collapse on mobile
+				$J(document).on( 'click', '.popup_genre_expand_header', function ( event ) {
+					if ( !UseSmallScreenMode() )
+						return;
+
+					event.preventDefault();
+					var $Element = $J(this);
+					var $Target = $J('.popup_genre_expand_content[data-genre-group=' + $Element.data('genre-group') + ']' );
+					if ( $Element.data('group-expanded') )
+					{
+						$Target.slideUp();
+						$Element.data( 'group-expanded', false );
+					}
+					else
+					{
+						$Target.slideDown();
+						$Element.data( 'group-expanded', true );
+					}
+				});
+			} );
+		</script>
+	<script type="text/javascript">
+	var g_AccountID = 0;
+	var g_sessionID = "acfd1bb1750fc330c49af73c";
+	var g_ServerTime = 1731741287;
+	var g_bUseNewCartAPI = true;
+
+	$J( InitMiniprofileHovers( 'https%3A%2F%2Fstore.steampowered.com%2F' ) );
+
+	
+			GStoreItemData.AddNavParams({
+			__page_default: "1_5_9_",
+			__page_default_obj: {"domain":"store.steampowered.com","controller":"application","method":"app","submethod":"","feature":null,"depth":null,"countrycode":"RU","webkey":null,"is_client":false,"curator_data":null,"is_likely_bot":false,"is_utm":null},
+			__originating_obj: {"domain":"store.steampowered.com","controller":"external-site","method":"referral","submethod":"","feature":"google","depth":0,"countrycode":"","webkey":null,"is_client":false,"curator_data":null,"is_likely_bot":false,"is_utm":false},
+			storemenu_recommendedtags: "1_5_9__17"		});
+		GDynamicStore.Init( 0, false, "", {"primary_language":null,"secondary_languages":null,"platform_windows":null,"platform_mac":null,"platform_linux":null,"timestamp_updated":null,"hide_store_broadcast":null,"review_score_preference":null,"timestamp_content_descriptor_preferences_updated":null,"provide_deck_feedback":null,"additional_languages":null}, 'RU',
+			{"bNoDefaultDescriptors":false} );
+		GStoreItemData.SetCurrencyFormatter( function( nValueInCents, bWholeUnitsOnly ) { var fmt = function( nValueInCents, bWholeUnitsOnly ) {	var format = v_numberformat( nValueInCents / 100, bWholeUnitsOnly ? 0 : 2, ",", "");format = format.replace( ",00", '' ); return format; };var strNegativeSymbol = '';	if ( nValueInCents < 0 ) { strNegativeSymbol = '-'; nValueInCents = -nValueInCents; }return strNegativeSymbol + fmt( nValueInCents, bWholeUnitsOnly ) + " \u0440\u0443\u0431.";} );
+		GStoreItemData.SetCurrencyMinPriceIncrement( 1 );
+	</script>
+
+	<!-- create two column layout for Deck, Tablet sized screens -->
+	<div id="tabletGrid" class="tablet_grid">
+
+	<div class="page_content_ctn" itemscope itemtype="http://schema.org/Product">
+		
+		<meta itemprop="image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/945360/capsule_231x87.jpg?t=1726265143">
+					<div itemprop="offers" itemscope itemtype="http://schema.org/Offer" style="display: none;">
+				<meta itemprop="priceCurrency" content="RUB">
+				<meta itemprop="price" content="225">
+							</div>
+		
+		<div class="page_title_area game_title_area page_content" data-gpnav="columns">
+			<div class="breadcrumbs" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" >
+								<div class="blockbg">
+											<a href="https://store.steampowered.com/search/?term=&snr=1_5_9__205">Все игры</a>
+																					&gt; <a href="https://store.steampowered.com/genre/Casual/?snr=1_5_9__205">Казуальные игры</a>
+																&gt; <a href="https://store.steampowered.com/franchise/Innersloth?snr=1_5_9__205">Серия игр Innersloth</a>
+															&gt; <a href="https://store.steampowered.com/app/945360/?snr=1_5_9__205"><span itemprop="name">Among Us</span></a>
+
+				</div>
+				<div style="clear: left;"></div>
+							</div>
+						
+
+<div class="apphub_HomeHeaderContent">
+
+	<div class="apphub_HeaderStandardTop">
+		                      <div class="apphub_OtherSiteInfo">
+
+                    
+                <a class="btnv6_blue_hoverfade btn_medium" href="https://steamcommunity.com/app/945360">
+                    <span>Центр сообщества</span>
+                </a>
+            </div>
+         		<div class="apphub_AppIcon"><img src="https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/945360/b82c3f46da8f3c918e1c9e0d18bd6fa8fcef6801.jpg"><div class="overlay"></div></div>
+		<div id="appHubAppName" class="apphub_AppName">Among Us</div>
+		<div style="clear: both"></div>
+
+	</div>
+
+</div>
+
+											</div>
+		<div style="clear: left;"></div>
+
+
+		<div class="block game_media_and_summary_ctn">
+						<script type="text/javascript">
+				var strRequiredVersion = "9";
+				if ( typeof( g_bIsOnMac ) != 'undefined' && g_bIsOnMac )
+					strRequiredVersion = "10.1.0";
+
+			</script>
+
+			
+			<div class="game_background_glow">
+                                
+				
+								<div data-panel="{&quot;autoFocus&quot;:true,&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" class="responsive_page_header_img" style="display: none;">
+					<img style="width:100%;" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg?t=1726265143">
+				</div>
+				
+
+
+				<div class="block_content page_content" id="game_highlights" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" >
+				
+				<div class="rightcol" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" >
+					<div class="glance_ctn">
+						<div id="gameHeaderImageCtn" class="game_header_image_ctn">
+							<img class="game_header_image_full" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg?t=1726265143">
+
+																						<div id="appHubAppName_responsive" style="display: none;" class="apphub_AppName">Among Us</div>
+								<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" id="appHeaderGridContainer" class="app_header_grid_container" style="display:none">
+
+																			<div class="grid_label">Разработчик</div>
+										<div class="grid_content">
+											<a href="https://store.steampowered.com/developer/Innersloth?snr=1_5_9__400">Innersloth</a>										</div>
+																																							<div class="grid_label">Издатель</div>
+											<div class="grid_content">
+												<a href="https://store.steampowered.com/publisher/Innersloth?snr=1_5_9__400">Innersloth</a>											</div>
+																			
+																			<div class="grid_label grid_date">Дата выпуска</div>
+										<div class="grid_content grid_date">
+											16 ноя. 2018 г.										</div>
+																	</div>
+							
+
+						</div>
+													<div class="game_description_snippet">
+								Локальная и сетевая игра для компании от 4 до 15 игроков о командной работе и предательстве... в космосе!							</div>
+						
+						<div class="glance_ctn_responsive_left">
+															<div id="userReviews" class="user_reviews">
+
+																											<div class="user_reviews_summary_row" onclick="window.location='#app_reviews_hash'" style="cursor: pointer;" data-tooltip-html="90% из 2,077 обзоров пользователей за последние 30 дней положительные.">
+										<div class="subtitle column">Недавние обзоры:</div>
+										<div class="summary column">
+											<span class="game_review_summary positive">Очень положительные</span>
+																							<span class="responsive_hidden">
+													(2,077)
+												</span>
+																																	<span class="nonresponsive_hidden responsive_reviewdesc">
+												- 90% из 2,077 обзоров пользователей за последние 30 дней положительные.											</span>
+										</div>
+									</div>
+									
+																		<div class="user_reviews_summary_row" onclick="window.location='#app_reviews_hash'" style="cursor: pointer;" data-tooltip-html="92% из 608,537 обзоров положительные." itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+										<div class="subtitle column all">Все обзоры:</div>
+										<div class="summary column">
+																					<span class="game_review_summary positive" itemprop="description">Очень положительные</span>
+																							<span class="responsive_hidden">
+													(608,537)
+												</span>
+																																	<span class="nonresponsive_hidden responsive_reviewdesc">
+												- 92% из 608,537 обзоров положительные.											</span>
+
+											<!-- microdata -->
+											<meta itemprop="reviewCount" content="608537">
+											<meta itemprop="ratingValue" content="9">
+											<meta itemprop="bestRating" content="10">
+											<meta itemprop="worstRating" content="1">
+																				</div>
+									</div>
+								</div>
+							
+															<div class="release_date">
+									<div class="subtitle column">Дата выхода:</div>
+									<div class="date">16 ноя. 2018 г.</div>
+								</div>
+							
+																						<div class="dev_row">
+									<div class="subtitle column">Разработчик:</div>
+									<div class="summary column" id="developers_list">
+										<a href="https://store.steampowered.com/developer/Innersloth?snr=1_5_9__2000">Innersloth</a>									</div>
+								</div>
+							
+																								<div class="dev_row">
+										<div class="subtitle column">Издатель:</div>
+										<div class="summary column">
+										<a href="https://store.steampowered.com/publisher/Innersloth?snr=1_5_9__2000">Innersloth</a>										</div>
+									</div>
+															
+													</div>
+
+						<div id="glanceCtnResponsiveRight" class="glance_ctn_responsive_right" data-panel="{&quot;flow-children&quot;:&quot;column&quot;}" >
+																								<!-- when the javascript runs, it will set these visible or not depending on what fits in the area -->
+																		<div class="responsive_block_header">По меткам</div>
+									<div class="glance_tags_ctn popular_tags_ctn" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" >
+										<div class="glance_tags_label">Популярные метки для этого продукта:</div>
+										<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="glance_tags popular_tags" data-appid="945360">
+											<a href="https://store.steampowered.com/tags/ru/%D0%94%D0%BB%D1%8F%20%D0%BD%D0%B5%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%B8%D1%85%20%D0%B8%D0%B3%D1%80%D0%BE%D0%BA%D0%BE%D0%B2/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Для нескольких игроков												</a><a href="https://store.steampowered.com/tags/ru/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B9%20%D0%BA%D0%BE%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Сетевой кооператив												</a><a href="https://store.steampowered.com/tags/ru/%D0%A1%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%B4%D0%B5%D0%B4%D1%83%D0%BA%D1%86%D0%B8%D1%8F/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Социальная дедукция												</a><a href="https://store.steampowered.com/tags/ru/%D0%9A%D0%BE%D1%81%D0%BC%D0%BE%D1%81/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Космос												</a><a href="https://store.steampowered.com/tags/ru/%D0%92%D1%8B%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Выживание												</a><a href="https://store.steampowered.com/tags/ru/2D/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												2D												</a><a href="https://store.steampowered.com/tags/ru/%D0%A1%D0%BC%D0%B5%D1%88%D0%BD%D0%B0%D1%8F/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Смешная												</a><a href="https://store.steampowered.com/tags/ru/%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Психологическая												</a><a href="https://store.steampowered.com/tags/ru/%D0%9A%D0%BE%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Кооператив												</a><a href="https://store.steampowered.com/tags/ru/%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%B3%D1%80%D0%B0/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Командная игра												</a><a href="https://store.steampowered.com/tags/ru/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%BF%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Мультипликация												</a><a href="https://store.steampowered.com/tags/ru/%D0%9B%D0%BE%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%BF%D0%BB%D0%B5%D0%B5%D1%80/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Локальный мультиплеер												</a><a href="https://store.steampowered.com/tags/ru/%D0%9A%D0%B0%D0%B7%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%B8%D0%B3%D1%80%D0%B0/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Казуальная игра												</a><a href="https://store.steampowered.com/tags/ru/%D0%AD%D0%BA%D1%88%D0%B5%D0%BD/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Экшен												</a><a href="https://store.steampowered.com/tags/ru/%D0%98%D0%B3%D1%80%D0%BE%D0%BA%20%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2%20%D0%B8%D0%B3%D1%80%D0%BE%D0%BA%D0%B0/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Игрок против игрока												</a><a href="https://store.steampowered.com/tags/ru/%D0%9D%D0%B0%D1%83%D1%87%D0%BD%D0%B0%D1%8F%20%D1%84%D0%B0%D0%BD%D1%82%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Научная фантастика												</a><a href="https://store.steampowered.com/tags/ru/%D0%92%D0%B8%D0%B4%20%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%83/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Вид сверху												</a><a href="https://store.steampowered.com/tags/ru/%D0%9C%D0%B8%D0%BD%D0%B8-%D0%B8%D0%B3%D1%80%D1%8B/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Мини-игры												</a><a href="https://store.steampowered.com/tags/ru/%D0%98%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D1%8F%D0%BD%D0%B5/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Инопланетяне												</a><a href="https://store.steampowered.com/tags/ru/%D0%A6%D0%B2%D0%B5%D1%82%D0%B0%D1%81%D1%82%D0%B0%D1%8F/?snr=1_5_9__409" class="app_tag" style="display: none;">
+												Цветастая												</a><div class="app_tag add_button" data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" onclick="ShowAppTagModal( 945360 )">+</div>
+										</div>
+									</div>
